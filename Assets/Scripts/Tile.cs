@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Tile : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
+namespace Board{
+    public class Tile : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public Vector2 _coordinate;
+        public GameObject _gameObject;
+        public DistinctiveType _distinctiveType;
+        public Color _cubeColor;
     }
 }
+
